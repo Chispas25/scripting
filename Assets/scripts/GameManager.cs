@@ -14,9 +14,13 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         Debug.Log($"Tienes {vidas} vidas");
+
+        Debug.Log("Monedas : " + score);
     }
 
     public int vidas = 3;
+
+    public static int score = 0;
 
     /*void OnCollisionEnter2D(Collision2D col)
     {
